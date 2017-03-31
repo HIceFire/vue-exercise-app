@@ -1,0 +1,41 @@
+{
+	"code": 0,
+	"message": "ok",
+	"data": {
+		"adImage": "http://static2.flowerplus.cn/Static/web/v1/Images/chaoyao.jpg?_t=1",
+		"banner_imglist": [
+			"http://oss.flowerplus.cn/product/20170317/14897216339210.jpg",
+			"http://oss.flowerplus.cn/product/20170318/14898258439346.jpg",
+			"http://oss.flowerplus.cn/product/20170317/14897182043870.jpg",
+			"http://oss.flowerplus.cn/product/20170308/14889602128398.jpg",
+			"http://oss.flowerplus.cn/product/20170313/14893759274868.png"
+		],
+		"goods": [
+			{
+				"title":"简花·单品鲜花月套餐",
+				"description": "一周一花，每月4次，精选一种当季花材，品种随机",
+				"price": 99,
+				"coverImage": "http://oss.flowerplus.cn/product/20170306/14887872765716.jpg"
+			},
+			{
+				"title":"简花·单品鲜花月套餐",
+				"description": "一周一花，每月4次，精选一种当季花材，品种随机",
+				"price": 99,
+				"coverImage": "http://oss.flowerplus.cn/product/20170306/14887872765716.jpg"
+			},
+			{
+				"title":"简花·单品鲜花月套餐",
+				"description": "一周一花，每月4次，精选一种当季花材，品种随机",
+				"price": 99,
+				"coverImage": "http://oss.flowerplus.cn/product/20170306/14887872765716.jpg"
+			},
+			{
+				"title":"简花·单品鲜花月套餐",
+				"description": "一周一花，每月4次，精选一种当季花材，品种随机",
+				"price": 99,
+				"coverImage": "http://oss.flowerplus.cn/product/20170306/14887872765716.jpg"
+			}
+		]
+	}
+
+}
