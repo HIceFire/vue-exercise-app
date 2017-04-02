@@ -1,14 +1,13 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
 import VueRouter from 'vue-router'
-import VueResource from 'vue-resource'
 
-//
+// import css
 import './assets/css/reset.css'
 import './assets/css/style.css'
 import 'icono'
 
-// 加载
+// 安装插件
 Vue.use(Vuex)
 Vue.use(VueRouter)
 
@@ -17,9 +16,7 @@ import App from './App.vue'
 
 // 引入子组件
 import index from './components/index.vue'
-import html from './components/details/html.vue'
-import css from './components/details/css.vue'
-import js from './components/details/js.vue'
+import flower from './components/details/flower.vue'
 import articles from './components/details/articles.vue'
 
 
@@ -32,16 +29,8 @@ const router = new VueRouter({
       component: index,
     },
     {
-      path: '/html',
-      component: html
-    },
-    {
-      path: '/css',
-      component: css
-    },
-    {
-      path: '/js',
-      component: js
+      path: '/flower',
+      component: flower
     },
     {
       path: '/myArticles',
@@ -50,13 +39,13 @@ const router = new VueRouter({
   ]
 })
 
-// 路由跳转关闭sidebar
+// 路由跳转时关闭sidebar
 router.afterEach((to, from) => {
   store.commit('closeSideBar')
 })
 
 
-// 构建store
+// vuex 构建store
 const store = new Vuex.Store({
   state: {
     sideBarHasOpen: false,
@@ -73,7 +62,7 @@ const store = new Vuex.Store({
   }
 })
 
-// 实例
+// vue实例
 new Vue({
   el: '#app',
   router: router,
@@ -95,6 +84,7 @@ new Vue({
   render: c => c(App) // c: createElemet
 })
 
+// mask显示时禁止滚动
 let controlScroll = {
   event (ev) {
     ev.preventDefault()

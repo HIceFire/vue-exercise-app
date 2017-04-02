@@ -19,8 +19,8 @@ export default {
 	width: 100%;
 	height: 100%;
 	background-color: rgba(0, 0, 0, 0.73);
-	/*position: absolute;*/
   position: fixed;
+  z-index: 1;
 }
 
 .fade-enter-active, .fade-leave-active {

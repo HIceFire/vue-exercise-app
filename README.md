@@ -1,4 +1,4 @@
-# july
+# vue2.0练习小项目
 
 > a exercise project
 

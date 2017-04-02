@@ -5,9 +5,6 @@
         <h1>Simplify Continuous Delivery</h1>
         <p>Open source continuous delivery<br>server to model and visualize complex workflows with ease</p>
       </div>
-      <div class="banner-download">
-        <a href="#">Download Now</a>
-      </div>
     </div>
     <div v-for="product in products" id="products">
       <div class="product">
