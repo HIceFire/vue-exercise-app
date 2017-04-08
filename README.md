@@ -1,18 +1,16 @@
-# vue2.0练习小项目
+# vue2.0移动端小项目
 
-> a exercise project
+> 基于vue-cli的webpack-simple脚手架搭建的开发环境，涉及到vue2.0 + vue-router + vuex。适合阅读完官方文档的同学进阶练习。
 
-## Build Setup
+# Build Setup
 
-``` bash
+```
 # install dependencies
 npm install
 
-# serve with hot reload at localhost:8080
+# serve with hot reload at localhost:8090
 npm run dev
 
 # build for production with minification
 npm run build
 ```
-
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
