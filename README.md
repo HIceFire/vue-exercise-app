@@ -2,6 +2,9 @@
 
 > 基于vue-cli的webpack-simple脚手架搭建的开发环境，涉及到vue2.0 + vue-router + vuex。适合阅读完官方文档的同学进阶练习。
 
+
+[预览点我](https://hicefire.github.io/vue-exercise-app)
+
 # Build Setup
 
 ```
